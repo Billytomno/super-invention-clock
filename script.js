@@ -33,9 +33,9 @@ setInterval(() => {
     s = s < 10 ? '0' + s : s;
   
     // set time and label
-    hours.innerHTML = h + 'Hours';
-    minutes.innerHTML = m + 'Minutes';
-    secondes.innerHTML = s + 'Seconds';
+    hours.innerHTML = h + 'Hrs';
+    minutes.innerHTML = m + 'Min';
+    secondes.innerHTML = s + 'Sec';
     ampm.innerHTML = ap;
   
     // set time circular indicator
